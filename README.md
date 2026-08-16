@@ -5,7 +5,9 @@ This repository provides the source code, datasets, and supplementary material f
 CNN-GP integrates **representation learning** and **symbolic mining** into a unified framework. A Convolutional Neural Network (CNN) is first used to transform the original high-dimensional stock features into a compact latent representation. Genetic Programming (GP) then searches over the learned latent features to generate explicit symbolic alpha factors.
 
 The experiments are conducted on two real-world stock market datasets, **CSI500** and **CSI1000**.
-
+<p align="center">
+  <img src="figures/cnn-gp流程图.svg" width="900">
+</p>
 ## Repository Structure
 
 ```text
